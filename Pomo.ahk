@@ -65,7 +65,7 @@ MainApp:
     if(PomoRunning){
         PomoRunning:=False
         GuiControl,sPomo:Move,PomoStatus,x5
-        width:=isPomo?150:75
+        width:=isPomo?150:90
         WinSet, Region,0-0 w%width% h40 R2-2
         Goto, ClosePomo
     }
@@ -120,13 +120,15 @@ Relax:
         WinHide,sPomodoro
         WinShow, eyeRelax
     }
-    SetTimer, StartPomo, %relaxTime%
+    duration:=isPomo?relaxTime:eyeCareTime
+    ToolTip, %duration%
+    SetTimer, StartPomo, %duration%
 Return
 
 ClosePomo:
     SetTimer, TickTick, Off
     SetTimer, StartPomo, Off
-    face:=isPomo?"(╯°Д° ) ╯ ┻━┻":"(-ω-)"
+    face:=isPomo?"(╯°Д° ) ╯ ┻━┻":"护眼:关"
     GuiControl,sPomo:,PomoStatus,%face%
     Goto, CloseBeep
     ; Gui,sPomo:Destroy

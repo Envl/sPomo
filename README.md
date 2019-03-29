@@ -4,6 +4,14 @@
 
 ## 说明
 
+# v0.2
+
+- 新增了乞丐版 20-20-20 护眼模式\
+  每用眼 20 分钟,会提醒你休息 20 秒,眺望远方. 抄袭自[@我是 61 做的 Mac 版](https://m.okjike.com/originalPosts/5c9af345f601b00011b72d35?username=966e3733-b07a-4614-a0d7-748cd07a5d7b)
+- 快捷键为 `;;eye`
+
+# v0.1
+
 程序启动后, 随时连按这些键 `;;pom` 就能切换[工作模式](#工作模式)和[暂停模式](#暂停掀桌模式)
 ![image](img/1.png)
 
@@ -14,7 +22,7 @@
 - 可通过替换`start.mp3`和`end.mp3`自定义开始&结束铃声, 现在只支持`mp3`
 - [AHK](https://www.autohotkey.com/) 十分简单, 有兴趣自己看教程改也行
 
-[下载 v0.1](https://github.com/Envl/sPomo/releases/download/v0.1/sPomo.zip)
+[下载 v0.2](https://github.com/Envl/sPomo/releases/download/v0.2/sPomo.zip)
 
 > 编译的是 64 位版本, 32 位请自行编译
 
