@@ -15,7 +15,7 @@
 
 程序启动后, 随时连按这些键 `;;pom` 就能切换[工作模式](#工作模式)和[暂停模式](#暂停掀桌模式)
 
-![image](https://github.com/Envl/sPomo/raw/master/img/1.png)
+![image](https://github.com/Envl/sPomo/blob/master/img/1.png)
 
 - 使用标准番茄钟, 每小时切割为 25min-5min-25min-5min
 - 在窗口上使用鼠标右键退出软件
@@ -29,13 +29,13 @@
 ### 工作模式
 >自动在番茄钟和休息之间相互轮换
 - 番茄钟(25min)\
-  ![image](https://github.com/Envl/sPomo/raw/master/img/2-0.png)
+  ![image](https://github.com/Envl/sPomo/blob/master/img/2-0.png)
 - 休息时间(5min)\
-  ![image](https://github.com/Envl/sPomo/raw/master/img/2-1.png)
+  ![image](https://github.com/Envl/sPomo/blob/master/img/2-1.png)
 
 ### 休闲模式
 > 掀桌不干活, 一直处于休息时间
-![image](https://github.com/Envl/sPomo/raw/master/img/3.png)
+![image](https://github.com/Envl/sPomo/blob/master/img/3.png)
 
 ## 也许能让我继续更新它的方法
 
@@ -47,4 +47,4 @@
 - UI 优化
 - 背景白噪音
 
-![image](https://github.com/Envl/sPomo/raw/master/img/qr.png)
+![image](https://github.com/Envl/sPomo/blob/master/img/qr.png)
